@@ -23,6 +23,7 @@ public class TranVanTy_59133029_StrateryPattern {
      */
     static void BT1Main()
     {
+        
          context con = new context();
            Cong cong = new Cong();
            Tru tru = new Tru();
