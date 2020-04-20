@@ -11,7 +11,7 @@ import java.util.Date;
  *
  * @author Administrator
  */
-public class SinhVien {
+public class SinhVien  {
     String hoTen;
     Date ngaySinh;
     float diemTB;
@@ -47,6 +47,10 @@ public class SinhVien {
 
     public void setDiemTB(float diemTB) {
         this.diemTB = diemTB;
+    }
+    public void xuatTT()
+    {
+        System.out.println(hoTen+"\n"+ngaySinh+"\n"+diemTB);
     }
     
 }

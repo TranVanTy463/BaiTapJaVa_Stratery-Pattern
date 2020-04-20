@@ -10,13 +10,6 @@ package BT3;
  * @author Administrator
  */
 public interface ISoSanh<T> {
-   public int soSanh(T o1, T o2){
-       if( o1.   < 02)
-           return -1;
-                   else if(o1==o2)
-                       return 0;
-                    return 1 ;
-       
-   }
+  public int soSanh(T o1 , T o2);
   
 }

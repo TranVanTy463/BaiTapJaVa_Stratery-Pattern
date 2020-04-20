@@ -9,6 +9,22 @@ package BT3;
  *
  * @author Administrator
  */
-public class SoSanhTheoTen implements ISoSanh{
+public abstract class SoSanhTheoTen implements ISoSanh{
+
+    public SoSanhTheoTen() {
+    }
+
+  
+    public int soSanh(SinhVien o1, SinhVien o2) {
+        if( o1 >  o2)
+        {
+            return 1;
+        }
+        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+
+    
+  
     
 }

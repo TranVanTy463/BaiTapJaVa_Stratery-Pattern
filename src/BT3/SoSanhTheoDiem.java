@@ -9,7 +9,15 @@ package BT3;
  *
  * @author Administrator
  */
-public class SoSanhTheoDiem implements ISoSanh{
+public abstract class SoSanhTheoDiem implements ISoSanh{
+
+    public SoSanhTheoDiem() {
+    }
+
+    public int soSanh(SinhVien o1, SinhVien o2) {
+        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     
     
 }

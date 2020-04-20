@@ -9,11 +9,22 @@ import java.util.ArrayList;
  *
  * @author Administrator
  */
-public class QLSV {
+public class QLSV extends SinhVien{
     ISoSanh<SinhVien> soSanh ;
     ArrayList<SinhVien> dsSV = new ArrayList<>();
     
-    
+    public void sapXep()
+    {
+        
+    }
+    public void inDS()
+    {
+       int i ;
+       for(i =0 ; i<dsSV.size();i++)
+       {
+           dsSV.get(i).xuatTT();
+       }
+    }
     
     
 }

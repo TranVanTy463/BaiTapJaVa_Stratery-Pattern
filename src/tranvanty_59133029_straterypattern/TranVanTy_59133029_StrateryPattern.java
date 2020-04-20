@@ -11,6 +11,9 @@ import BT2.GioHang;
 import BT2.HangHoa;
 import BT2.ThanhToanCOD;
 import BT2.ThanhToanOnline;
+import BT3.QLSV;
+
+import java.util.ArrayList;
 
 /**
  *
@@ -63,19 +66,18 @@ public class TranVanTy_59133029_StrateryPattern {
         System.out.println("Giỏ Hàng 2 : ");
         GH2.InDs();
         System.out.println("Tổng tiền hàng là : "+ GH2.TongTienHang());
-                
         
-        
-        
-        
-        
-          
+    }
+    static void BT3Main()
+    {
+        QLSV qlsv = new QLSV();
         
     }
     public static void main(String[] args) {
            //  BT1Main();
              BT2Main();
-        // TODO code application logic here
+           // BT3Main();
+       
     }
     
 }
